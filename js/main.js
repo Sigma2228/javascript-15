@@ -38,4 +38,11 @@ const sortPeoples = peoples.reduce((acc, person) => {
 }, {over5friend: [], under5friend: []})
 
 console.log(sortPeoples)
-// Нада ше зробити 4 завданя
+const users = [
+    {name: 'Borus', skills: 'football'},
+    {name: 'Artem', skills: 'hookey'},
+    {name: 'David', skills: 'voleyball'},
+    {name: 'Cigan', skills: 'basketball'}
+]
+const masiv = users.map(el => el.name + ': ' + el.skills).sort()
+console.log(masiv)
